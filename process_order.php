@@ -21,7 +21,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $message .= "Delivery Charge: $deliveryCharge\n";
 
     // Send email
-    $headers = "From: your@email.com"; // Your email address
+    $headers = "From: bbiplobmorol@gmail.com"; // Your email address
     if (mail($to, $subject, $message, $headers)) {
         echo "Order submitted successfully. We will contact you shortly.";
     } else {
